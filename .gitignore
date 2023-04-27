@@ -1,2 +1,6 @@
 /dynamodb/bin
 /node_modules
+
+.idea
+.vscode
+.npmrc

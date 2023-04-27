@@ -1,15 +1,15 @@
 {
-    "name": "serverless-dynamodb-local",
-    "version": "0.2.40",
+    "name": "@cable92/serverless-dynamodb-local",
+    "version": "1.0.0",
     "engines": {
         "node": ">=4.0"
     },
     "description": "Serverless dynamodb local plugin",
-    "author": "99xtechnology.com",
+    "author": "Bolster Technologies",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/99xt/serverless-dynamodb-local"
+        "url": "https://github.com/Cable92/serverless-dynamodb-local"
     },
     "keywords": [
         "serverless framework plugin",
@@ -43,5 +43,8 @@
         "mocha": "^10.2.0",
         "npm-check-updates": "^16.10.9",
         "should": "^13.2.3"
+    },
+    "publishConfig": {
+        "registry":"https://npm.pkg.github.com/"
     }
 }
